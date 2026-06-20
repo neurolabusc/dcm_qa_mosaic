@@ -19,6 +19,7 @@
 	"ProtocolName": "cmrr_Asc_HF",
 	"ScanningSequence": "EP",
 	"SequenceVariant": "SK\\SS",
+	"PulseSequenceType": "Gradient Echo EPI",
 	"ScanOptions": "FS",
 	"SequenceName": "epfid2d1_64",
 	"ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MOSAIC", "MAGNITUDE"],
@@ -36,7 +37,6 @@
 	"EchoTime": 0.034,
 	"RepetitionTime": 3.2,
 	"FlipAngle": 52,
-	"PartialFourier": 1,
 	"BaseResolution": 64,
 	"ShimSetting": [
 		6799,
@@ -64,6 +64,8 @@
 	"AcquisitionMatrixPE": 64,
 	"ReconMatrixPE": 64,
 	"BandwidthPerPixelPhaseEncode": 31.25,
+	"ParallelReductionFactorInPlane": 1,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"EffectiveEchoSpacing": 0.0005,
 	"DerivedVendorReportedEchoSpacing": 0.0005,
 	"TotalReadoutTime": 0.0315,
@@ -122,5 +124,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["func","_acq-epfid2_dir-PA_run-7_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }
